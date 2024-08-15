@@ -1,0 +1,46 @@
+body {
+    margin-top: 20px;
+}
+
+/* カードのレイアウト設定　4×3列に調整 */
+#container {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-auto-rows: 100px;
+    gap: 10px;
+    margin: 20px;
+}
+
+.card {
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    border: solid 2px #444;
+}
+
+.material-symbols-outlined {
+    font-size: 60px;
+    color: #444;
+}
+
+#start {
+    width: 430px;
+    height: 40px;
+}
+
+.one {
+    color: #f00;
+}
+
+.two {
+    color: #00f;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.button {
+    text-align: center;
+}
