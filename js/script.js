@@ -56,7 +56,7 @@
 
     //2枚めくった後の処理を関数にして切り分けておく
     //付与するクラスは引数addで設定し、呼び出し時にhiddenが渡される
-    //一致したときも選択状態を解除する必要がある
+    //カードが一致したときも選択状態を解除する必要がある
     const nextTurn = (add) => {
       selected = "";             //1枚もめくられていない状態に戻す
       let selections = document.querySelectorAll(".selected");
