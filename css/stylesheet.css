@@ -2,6 +2,17 @@ body {
     margin-top: 20px;
 }
 
+h1 {
+    text-align: center;
+    margin: 2rem;
+    color:#444
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
 /* カードのレイアウト設定　4×3列に調整 */
 #container {
     display: grid;
@@ -27,6 +38,7 @@ body {
 #start {
     width: 430px;
     height: 40px;
+    letter-spacing: 10px;
 }
 
 .one {
